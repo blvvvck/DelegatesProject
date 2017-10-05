@@ -7,3 +7,10 @@
   c) Пусть на стене будут уже 3-4 записи такого рода (как на картинке с примером), а при добавлении новой записи (текста) вы соотвественно добавляете Аватар, Имя фамилия, дату (просто зашитый текст) ну и собственно текст.
 
 P.S. Отступы посмотрите примерно на глаз чтобы все выглядело по красоте. 
+
+### Примеры:
+UIAlert
+<img src="https://raw.githubusercontent.com/ZalyalovIldar/DelegatesProject/master/1.jpg" alt="Demo" />
+
+Запись на своей стене
+<img src="https://raw.githubusercontent.com/ZalyalovIldar/DelegatesProject/master/2.jpg" alt="Demo" />
