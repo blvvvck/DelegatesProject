@@ -9,8 +9,7 @@
 P.S. Отступы посмотрите примерно на глаз чтобы все выглядело по красоте. 
 
 ### Примеры:
-UIAlert
+
 <img src="https://raw.githubusercontent.com/ZalyalovIldar/DelegatesProject/master/1.jpg" alt="Demo" />
 
-Запись на своей стене
 <img src="https://raw.githubusercontent.com/ZalyalovIldar/DelegatesProject/master/2.jpg" alt="Demo" />
