@@ -18,7 +18,7 @@
 		952CBEF41F828FF800DCEFE7 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 952CBEF21F828FF800DCEFE7 /* NewsTableViewCell.xib */; };
 		952CBEF61F82902100DCEFE7 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952CBEF51F82902100DCEFE7 /* NoteViewController.swift */; };
 		953B047B1F8678F70011F6AD /* DataTransferProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B047A1F8678F70011F6AD /* DataTransferProtocol.swift */; };
-		953B04831F87C4300011F6AD /* moreMoreInfoAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B04821F87C4300011F6AD /* moreMoreInfoAlert.swift */; };
+		953B04831F87C4300011F6AD /* MoreInfoAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B04821F87C4300011F6AD /* MoreInfoAlert.swift */; };
 		953B04851F8BDE860011F6AD /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B04841F8BDE850011F6AD /* News.swift */; };
 		953B04871F8BDECC0011F6AD /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B04861F8BDECC0011F6AD /* Follower.swift */; };
 		953E593A1F7438EF00418F1F /* InformationAboutUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E59391F7438EF00418F1F /* InformationAboutUserTableViewController.swift */; };
@@ -67,7 +67,7 @@
 		952CBEF21F828FF800DCEFE7 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
 		952CBEF51F82902100DCEFE7 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoteViewController.swift; path = "VKDesign(11September)/ViewControllers/NoteViewController.swift"; sourceTree = SOURCE_ROOT; };
 		953B047A1F8678F70011F6AD /* DataTransferProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransferProtocol.swift; sourceTree = "<group>"; };
-		953B04821F87C4300011F6AD /* moreMoreInfoAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = moreMoreInfoAlert.swift; path = "VKDesign(11September)/moreMoreInfoAlert.swift"; sourceTree = "<group>"; };
+		953B04821F87C4300011F6AD /* MoreInfoAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoAlert.swift; sourceTree = "<group>"; };
 		953B04841F8BDE850011F6AD /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		953B04861F8BDECC0011F6AD /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		953E59391F7438EF00418F1F /* InformationAboutUserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationAboutUserTableViewController.swift; sourceTree = "<group>"; };
@@ -116,7 +116,6 @@
 		9523E8C41F66D516000DC924 = {
 			isa = PBXGroup;
 			children = (
-				953B04821F87C4300011F6AD /* moreMoreInfoAlert.swift */,
 				9523E8CF1F66D516000DC924 /* VKDesign(11September) */,
 				9523E8CE1F66D516000DC924 /* Products */,
 			);
@@ -133,6 +132,7 @@
 		9523E8CF1F66D516000DC924 /* VKDesign(11September) */ = {
 			isa = PBXGroup;
 			children = (
+				953B04881F8BE87C0011F6AD /* Alerts */,
 				953B047C1F86790B0011F6AD /* Protocols */,
 				95F610551F7866B7001F71A4 /* Models */,
 				95F610541F786693001F71A4 /* ViewControllers */,
@@ -153,6 +153,14 @@
 				953B047A1F8678F70011F6AD /* DataTransferProtocol.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		953B04881F8BE87C0011F6AD /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				953B04821F87C4300011F6AD /* MoreInfoAlert.swift */,
+			);
+			path = Alerts;
 			sourceTree = "<group>";
 		};
 		956B69891F786395006B6364 /* Extensions */ = {
@@ -334,7 +342,7 @@
 				953B04871F8BDECC0011F6AD /* Follower.swift in Sources */,
 				953E593D1F75510600418F1F /* StatusTableViewCell.swift in Sources */,
 				956B69881F78628E006B6364 /* ViewExtensions.swift in Sources */,
-				953B04831F87C4300011F6AD /* moreMoreInfoAlert.swift in Sources */,
+				953B04831F87C4300011F6AD /* MoreInfoAlert.swift in Sources */,
 				954445B21F7868C8000C1F5E /* InformationViewModelMainInfoItem.swift in Sources */,
 				954445AD1F786810000C1F5E /* InformationViewModelItemType.swift in Sources */,
 				954445BC1F7869A4000C1F5E /* InformationViewModelMoreInfoItem.swift in Sources */,
