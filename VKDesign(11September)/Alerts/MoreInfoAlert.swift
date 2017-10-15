@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-func alert() -> UIAlertController {
+func showMoreInfoAlert() -> UIAlertController {
     let editTitle = "Редактировать профиль"
     let copyTitle = "Скопировать ссылку"
     let shareTitle = "Поделиться..."

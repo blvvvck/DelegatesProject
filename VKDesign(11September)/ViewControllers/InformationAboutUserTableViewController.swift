@@ -82,7 +82,7 @@ class InformationAboutUserTableViewController: UITableViewController {
     }
     
     func moreInfoButtonPressed() {
-        present(alert(), animated: true, completion: nil)
+        present(showMoreInfoAlert(), animated: true, completion: nil)
     }
     
     func setNavigationBarTitle() {

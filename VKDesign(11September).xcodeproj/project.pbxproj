@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		951F10181F93B060001F3E5B /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F10171F93B060001F3E5B /* ViewExtensions.swift */; };
 		95215AEA1F77D5AB00F1CABF /* MoreInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95215AE81F77D5AB00F1CABF /* MoreInfoTableViewCell.swift */; };
 		95215AEB1F77D5AB00F1CABF /* MoreInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95215AE91F77D5AB00F1CABF /* MoreInfoTableViewCell.xib */; };
 		9523E8D11F66D516000DC924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9523E8D01F66D516000DC924 /* AppDelegate.swift */; };
@@ -42,7 +43,6 @@
 		954445B81F786956000C1F5E /* InformationViewModelEducationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954445B71F786956000C1F5E /* InformationViewModelEducationItem.swift */; };
 		954445BA1F786987000C1F5E /* InformationViewModelGiftsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954445B91F786987000C1F5E /* InformationViewModelGiftsItem.swift */; };
 		954445BC1F7869A4000C1F5E /* InformationViewModelMoreInfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954445BB1F7869A4000C1F5E /* InformationViewModelMoreInfoItem.swift */; };
-		956B69881F78628E006B6364 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956B69871F78628E006B6364 /* ViewExtensions.swift */; };
 		95CC0C011F7014A300331F8A /* FollowersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CC0C001F7014A300331F8A /* FollowersTableViewController.swift */; };
 		95CC0C041F7014E900331F8A /* FollowerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CC0C021F7014E900331F8A /* FollowerTableViewCell.swift */; };
 		95CC0C051F7014E900331F8A /* FollowerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95CC0C031F7014E900331F8A /* FollowerTableViewCell.xib */; };
@@ -54,6 +54,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		951F10171F93B060001F3E5B /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		95215AE81F77D5AB00F1CABF /* MoreInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoTableViewCell.swift; sourceTree = "<group>"; };
 		95215AE91F77D5AB00F1CABF /* MoreInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreInfoTableViewCell.xib; sourceTree = "<group>"; };
 		9523E8CD1F66D516000DC924 /* VKDesign(11September).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VKDesign(11September).app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,7 +92,6 @@
 		954445B71F786956000C1F5E /* InformationViewModelEducationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewModelEducationItem.swift; sourceTree = "<group>"; };
 		954445B91F786987000C1F5E /* InformationViewModelGiftsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewModelGiftsItem.swift; sourceTree = "<group>"; };
 		954445BB1F7869A4000C1F5E /* InformationViewModelMoreInfoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewModelMoreInfoItem.swift; sourceTree = "<group>"; };
-		956B69871F78628E006B6364 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewExtensions.swift; path = ../ViewExtensions.swift; sourceTree = "<group>"; };
 		95CC0C001F7014A300331F8A /* FollowersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowersTableViewController.swift; sourceTree = "<group>"; };
 		95CC0C021F7014E900331F8A /* FollowerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowerTableViewCell.swift; sourceTree = "<group>"; };
 		95CC0C031F7014E900331F8A /* FollowerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollowerTableViewCell.xib; sourceTree = "<group>"; };
@@ -113,6 +113,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		951F10161F93B042001F3E5B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				951F10171F93B060001F3E5B /* ViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		9523E8C41F66D516000DC924 = {
 			isa = PBXGroup;
 			children = (
@@ -132,12 +140,12 @@
 		9523E8CF1F66D516000DC924 /* VKDesign(11September) */ = {
 			isa = PBXGroup;
 			children = (
+				951F10161F93B042001F3E5B /* Extensions */,
 				953B04881F8BE87C0011F6AD /* Alerts */,
 				953B047C1F86790B0011F6AD /* Protocols */,
 				95F610551F7866B7001F71A4 /* Models */,
 				95F610541F786693001F71A4 /* ViewControllers */,
 				95F610531F786654001F71A4 /* CustomCells */,
-				956B69891F786395006B6364 /* Extensions */,
 				9523E8D01F66D516000DC924 /* AppDelegate.swift */,
 				9523E8D41F66D516000DC924 /* Main.storyboard */,
 				9523E8D71F66D516000DC924 /* Assets.xcassets */,
@@ -161,14 +169,6 @@
 				953B04821F87C4300011F6AD /* MoreInfoAlert.swift */,
 			);
 			path = Alerts;
-			sourceTree = "<group>";
-		};
-		956B69891F786395006B6364 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				956B69871F78628E006B6364 /* ViewExtensions.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		95E6FB751F7950E90056C7F7 /* Models for InformationItem */ = {
@@ -341,12 +341,12 @@
 				95CC0C011F7014A300331F8A /* FollowersTableViewController.swift in Sources */,
 				953B04871F8BDECC0011F6AD /* Follower.swift in Sources */,
 				953E593D1F75510600418F1F /* StatusTableViewCell.swift in Sources */,
-				956B69881F78628E006B6364 /* ViewExtensions.swift in Sources */,
 				953B04831F87C4300011F6AD /* MoreInfoAlert.swift in Sources */,
 				954445B21F7868C8000C1F5E /* InformationViewModelMainInfoItem.swift in Sources */,
 				954445AD1F786810000C1F5E /* InformationViewModelItemType.swift in Sources */,
 				954445BC1F7869A4000C1F5E /* InformationViewModelMoreInfoItem.swift in Sources */,
 				953E593A1F7438EF00418F1F /* InformationAboutUserTableViewController.swift in Sources */,
+				951F10181F93B060001F3E5B /* ViewExtensions.swift in Sources */,
 				95215AEA1F77D5AB00F1CABF /* MoreInfoTableViewCell.swift in Sources */,
 				954445BA1F786987000C1F5E /* InformationViewModelGiftsItem.swift in Sources */,
 				953E59411F75A77E00418F1F /* MainInfoTableViewCell.swift in Sources */,

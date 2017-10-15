@@ -15,6 +15,8 @@ class NoteViewController: UIViewController, UITextViewDelegate {
     
     var dataTransferDelagete: DataTransferProtocol?
     let placeholderText = "What's new?"
+    let placeholderTextColor = UIColor.lightGray
+    let noteTextColor = UIColor.black
     
     @IBAction func cancelButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
@@ -23,7 +25,7 @@ class NoteViewController: UIViewController, UITextViewDelegate {
     override func viewDidLoad() {
         noteTextView.delegate = self
         noteTextView.text = placeholderText
-        noteTextView.textColor = UIColor.lightGray
+        noteTextView.textColor = placeholderTextColor
         doneButton.isEnabled = false
         
     }
@@ -31,9 +33,9 @@ class NoteViewController: UIViewController, UITextViewDelegate {
 
     func textViewDidBeginEditing(_ textView: UITextView) {
         
-        if noteTextView.textColor == UIColor.lightGray {
+        if noteTextView.textColor == placeholderTextColor {
             noteTextView.text = ""
-            noteTextView.textColor = UIColor.black
+            noteTextView.textColor = noteTextColor
             doneButton.isEnabled = true
         }
     }
@@ -43,7 +45,7 @@ class NoteViewController: UIViewController, UITextViewDelegate {
         if noteTextView.text == "" {
             
             noteTextView.text = placeholderText
-            noteTextView.textColor = UIColor.lightGray
+            noteTextView.textColor = placeholderTextColor
         }
     }
     

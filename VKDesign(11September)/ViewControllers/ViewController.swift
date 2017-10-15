@@ -104,7 +104,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     @IBAction func moreInfoButtonPressed(_ sender: Any) {
         
-        present(alert(), animated: true, completion: nil)
+        present(showMoreInfoAlert(), animated: true, completion: nil)
     }
     
     func setNavigationBarColorAndFont(){
